@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'keepalived::global_defs', :type => :class do
+describe 'keepalived::global_defs' do
   let (:facts) { debian_facts }
   let (:pre_condition) { '$concat_basedir = "/tmp"' }
 
